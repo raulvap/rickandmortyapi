@@ -1,0 +1,10 @@
+.loading {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 10px 5px;
+
+  p {
+    color: $font-grey;
+  }
+}

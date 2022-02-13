@@ -1,0 +1,37 @@
+.button-primary {
+  cursor: pointer;
+  // display: inline-block;
+  background-color: $color-1;
+  border: none;
+  border-radius: 200px;
+  padding: 0px 30px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: $color-5;
+  transition: all 0.6s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  display: flex;
+  align-items: center;
+
+  span {
+    transition: all 0.5s;
+    margin-right: 5px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  &:hover {
+    transition: all 0.6s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    span {
+      transition: all 0.5s;
+      margin-right: 10px;
+    }
+  }
+}

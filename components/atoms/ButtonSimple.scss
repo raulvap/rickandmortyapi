@@ -1,0 +1,17 @@
+.simple-button {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background: transparent;
+
+  visibility: hidden;
+
+  p {
+    color: $color-1;
+    font-size: 12px;
+  }
+
+  &:hover {
+    visibility: visible;
+  }
+}
