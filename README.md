@@ -20,4 +20,6 @@ for non-profit purposes
 ## Deployed
 You can see the app deployed to [Vercel](https://vercel.com/) in this link:
 
+https://rickandmortyapi-omega.vercel.app/
+
 
