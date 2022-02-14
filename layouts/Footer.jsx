@@ -19,7 +19,11 @@ const Footer = () => {
             The Movie Database,
             <br /> for non-profit purposes
           </p>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/raulvap/rickandmortyapi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             View this Code in GitHub
           </a>
         </div>
